@@ -7,4 +7,3 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && apk add --no-cache bash \
 
 ENTRYPOINT [ "/bin/sh", "-c", "while true; do sleep 60;done" ]
-EOF
